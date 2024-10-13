@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bogoc4"
+    android:id="@+id/id_item_book_mark"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/id_img_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/so_do"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/id_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Số Đỏ"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/id_txt_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Số Đỏ"
+            android:textColor="#FF0000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/id_txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Số Đỏ"
+            android:textColor="#607F9D"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/id_txt_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Số Đỏ"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/id_btn_evaluate"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FBEEC6"
+            android:text="ĐÁNH GIÁ"
+            android:textColor="@color/white"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
