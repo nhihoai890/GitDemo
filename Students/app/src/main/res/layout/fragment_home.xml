@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coral"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Trang Chủ"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Thông báo -->
+    <TextView
+        android:id="@+id/tvAnnouncements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông Báo Từ Nhà Trường"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/announcement1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch thi giữa kỳ sẽ diễn ra từ ngày 15 đến 20 tháng 11."
+        android:textColor="@color/white"
+        android:padding="8dp"
+
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/announcement2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giáo viên sẽ có cuộc họp vào thứ Hai lúc 10h."
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Cập nhật từ giáo viên -->
+    <TextView
+        android:id="@+id/tvUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập Nhật Từ Giáo Viên"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/update1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình trực quan: Có bài kiểm tra vào tuần sau."
+        android:padding="8dp"
+       android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/update2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình web: Ôn tập các bài đã học trước kỳ thi."
+        android:padding="8dp"
+      android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Lịch học -->
+    <TextView
+        android:id="@+id/tvSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch Học Cá Nhân"
+        android:textColor="@color/white"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/schedule1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Thứ 2: Công nghệ XML: 9h - 11h"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/schedule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thứ 3: Công nghệ phần mềm: 13h- 15h"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+
+</LinearLayout>
