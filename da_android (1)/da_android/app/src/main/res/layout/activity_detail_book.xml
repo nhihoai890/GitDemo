@@ -37,8 +37,8 @@
 
                         <ImageButton
                             android:id="@+id/id_btn_out_detail_book"
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
+                            android:layout_width="18dp"
+                            android:layout_height="20dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="15dp"
                             android:background="@drawable/vector" />
@@ -47,13 +47,13 @@
                             android:id="@+id/id_img_detail_book"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="80dp"
+                            android:layout_marginLeft="103dp"
                             android:background="@drawable/so_do" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="70dp"
+                            android:layout_marginLeft="60dp"
                             android:orientation="vertical">
 
                             <ImageButton
@@ -66,17 +66,17 @@
 
                             <ImageButton
                                 android:id="@+id/id_btn_chat_detail"
-                                android:layout_width="45dp"
-                                android:layout_height="45dp"
-                                android:layout_marginLeft="20dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="25dp"
                                 android:layout_marginTop="5dp"
                                 android:background="@drawable/baseline_chat_24" />
 
                             <ImageButton
                                 android:id="@+id/id_btn_shear"
-                                android:layout_width="45dp"
-                                android:layout_height="45dp"
-                                android:layout_marginLeft="20dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="22dp"
                                 android:layout_marginTop="5dp"
                                 android:background="@drawable/image_5" />
                         </LinearLayout>
