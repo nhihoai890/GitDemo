@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
+                android:layout_marginLeft="129dp"
                 android:text="Giỏ Hàng"
                 android:textColor="@color/white"
                 android:textSize="28dp"
@@ -29,11 +29,11 @@
 
             <ImageButton
                 android:id="@+id/id_img_btn_order"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/image_10" />
+                android:background="@drawable/history" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView

@@ -33,7 +33,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="15dp"
         android:background="@color/white"
-        android:hint="Tên Đăng Nhập"
+        android:hint="Tên đăng nhập"
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -51,7 +51,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="15dp"
         android:background="@color/white"
-        android:hint="Mật Khẩu"
+        android:hint="Mật khẩu"
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
         android:gravity="right"
-        android:text="Quyên Mật Khẩu?"
+        android:text="Quên mật khẩu?"
         android:textColor="#3E18C9"
         android:textSize="16dp" />
 
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Bạn Chưa Có Tài Khoản?"
+        android:text="Bạn chưa có tài khoản?"
         android:textColor="@color/black"
         android:textSize="18dp" />
 
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Tạo Tài Khoản"
+        android:text="Tạo tài khoản"
         android:textColor="#3E18C9"
         android:textSize="16dp" />
 

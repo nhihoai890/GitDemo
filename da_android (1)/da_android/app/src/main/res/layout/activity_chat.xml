@@ -55,16 +55,18 @@
 
         <EditText
             android:id="@+id/editTextMessage"
-            android:layout_width="0dp"
+            android:layout_width="345dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/inputshape"
             android:hint="Soạn Tin Nhắn......"
             android:padding="10dp" />
 
         <ImageButton
             android:id="@+id/buttonSend"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/baseline_send_24" />
     </LinearLayout>
 

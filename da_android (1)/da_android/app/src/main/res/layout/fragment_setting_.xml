@@ -13,8 +13,8 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="Cài Đặt"
-        android:textSize="28dp"
-        android:textStyle="bold|italic" />
+        android:textSize="26dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="350dp"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:text="Tài Khoản"
+            android:text="Tài khoản"
             android:textColor="@color/white"
             android:textSize="24dp"
             android:textStyle="bold" />
@@ -45,7 +45,7 @@
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="3dp"
                 android:background="@drawable/mdi_account" />
 
             <LinearLayout
@@ -70,13 +70,6 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="115dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/ooui_next_ltr" />
-
 
         </LinearLayout>
 
@@ -90,7 +83,7 @@
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="3dp"
                 android:background="@drawable/material_symbols_lock" />
 
             <LinearLayout
@@ -102,7 +95,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mật Khẩu Và Bảo Mật"
+                    android:text="Mật khẩu và bảo mật"
                     android:textColor="@color/white"
                     android:textSize="16dp" />
 
@@ -115,12 +108,7 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/ooui_next_ltr" />
+
 
 
         </LinearLayout>
@@ -135,7 +123,7 @@
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="3dp"
                 android:background="@drawable/ic_baseline_payment" />
 
             <LinearLayout
@@ -147,7 +135,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thanh Toán Và Hoàn Trả"
+                    android:text="Thanh toán và hoàn trả"
                     android:textColor="@color/white"
                     android:textSize="16dp" />
 
@@ -160,11 +148,7 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/ooui_next_ltr" />
+
 
 
         </LinearLayout>
@@ -193,16 +177,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Ngôn Ngữ"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Ngôn ngữ"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="140dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -220,16 +201,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
                 android:text="All Teams"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="145dp"
-                android:background="@drawable/ooui_next_ltr" />
         </LinearLayout>
 
         <LinearLayout
@@ -247,16 +224,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Chế Độ Tối"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Chế độ tối"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="140dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -274,16 +248,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Báo Cáo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Báo cáo"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="160dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -301,16 +272,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Hỗ Trợ"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Hỗ trợ"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="180dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -328,16 +296,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Đánh Gía Ứng Dụng"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Đánh giá ứng dụng"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="65dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -356,16 +321,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
                 android:text="Đăng Xuất"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
-            <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="140dp"
-                android:background="@drawable/ooui_next_ltr" />
+
         </LinearLayout>
     </LinearLayout>
 

@@ -1,5 +1,6 @@
 package com.example.android.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -8,6 +9,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.android.Activity.Auth.Change_Password_Activity;
+import com.example.android.Activity.Auth.Login_Activity;
 import com.example.android.R;
 
 public class Detail_Book_Activity extends AppCompatActivity {
@@ -22,5 +25,6 @@ public class Detail_Book_Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        
     }
 }
