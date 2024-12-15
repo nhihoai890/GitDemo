@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white"/> <!-- Màu nền -->
+    <corners android:radius="16dp"/> <!-- Bán kính bo góc -->
+    <stroke android:width="2dp" android:color="@color/black"/> <!-- Đường viền -->
+<!--    <gradient android:type="linear" android:angle="0" android:startColor="#F5EEE5" android:endColor="#F5EEE5" android:centerX="@integer/material_motion_duration_long_1" android:centerY="@integer/material_motion_duration_long_2" android:centerColor="@color/black" />-->
+</shape>
